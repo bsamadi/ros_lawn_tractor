@@ -24,3 +24,7 @@ include_directories(
 install(DIRECTORY  launch config scripts
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+
+install(FILES gps_points_file.txt
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
